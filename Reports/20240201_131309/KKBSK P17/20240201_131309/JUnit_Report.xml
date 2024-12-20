@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KKBSK P17" time="119.734" tests="9" failures="3" errors="0">
+   <testsuite name="KKBSK P17" tests="9" failures="3" errors="0" time="119.734" skipped="0" timestamp="2024-02-01 13:13:13" hostname="Daniel - LAPTOP-NARI9JQA" id="Test Suites/KKBSK P17">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309"/>
+         <property name="logFiles" value="C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\1. Skenario 2.1 Login Page.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\2. Skenario 2.2 Login Page.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.1 Dashboard.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.2 Dashboard - Sidebar.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.3 Master Event(Add).png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.4 Master Event(Add) - Popup.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.6 Master Event(Add) - Popup Filled.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.7 Master Event(Add) - Popup Success.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.1 Dashboard - Sidebar.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.2 Master Event - Search.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.3 Master Event - Search - Valid kode event.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.4 Master Event - Search - Non Valid kode event.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.5 Master Event - Search - Valid nama event.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.6 Master Event - Search - Non Valid nama event.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.7 Master Event - Search - Valid lokasi.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.8 Master Event - Search - Non Valid lokasi.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.9 Master Event - Search - Dari Tanggal.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.10 Master Event - Search - Sampai Tanggal.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.10 Master Event - Search - Status (active).png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.10 Master Event - Search - Status (inactive).png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.11 Master Event - Before Sorting.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.12 Master Event - Sorting - Kode Event.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.13 Master Event - Sorting - Nama Event.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.14 Master Event - Sorting - Lokasi.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.15 Master Event - Sorting - Dari Tanggal.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.15 Master Event - Sorting - Sampai Tanggal.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.15 Master Event - Sorting - Status.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 4.1 Event - Dealer.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 4.2 Event - Dealer - Search.png, C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\1706768045114.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\Skenario 12.1 Dashboard - Sidebar.png, C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\1706768046820.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 12.2 field kosong.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 12.3 nama terisi.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 13.1.a nama terisi.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 13.1.a default edit page.png, C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\1706768089102.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14.2 field kosong.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14.3 nama terisi.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14 nama asc.png, C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14 nama desc.png"/>
+         <property name="hostName" value="Daniel - LAPTOP-NARI9JQA"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="10.10.6.21"/>
+         <property name="sessionId" value="e56cf4a51a77cbd3da3a1e489303c65a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/1. Login" time="8.687" classname="Test Cases/1. Login" status="PASSED">
+         <system-out><![CDATA[2024-02-01 13:13:13 - [TEST_CASE][PASSED] - Test Cases/1. Login: Test Cases/1. Login
+
+2024-02-01 13:13:14 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:13:14 - [TEST_STEP][PASSED] - openBrowser("http://192.168.29.74/login"): Browser is opened with url: 'http://192.168.29.74/login'
+
+2024-02-01 13:13:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-01 13:13:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-01 13:13:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.29.74/login'
+
+2024-02-01 13:13:17 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "1. Skenario 2.1 Login Page" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\1. Skenario 2.1 Login Page.png]]
+
+2024-02-01 13:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CMS/Login/input_NIP_username"), username): Text '20160535' is set on object 'Object Repository/CMS/Login/input_NIP_username'
+
+2024-02-01 13:13:18 - [MESSAGE][PASSED] - Text '20160535' is set on object 'Object Repository/CMS/Login/input_NIP_username'
+
+2024-02-01 13:13:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CMS/Login/input_Password_password"), password): Text 'Mobile123+' is set on object 'Object Repository/CMS/Login/input_Password_password'
+
+2024-02-01 13:13:19 - [MESSAGE][PASSED] - Text 'Mobile123+' is set on object 'Object Repository/CMS/Login/input_Password_password'
+
+2024-02-01 13:13:19 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "2. Skenario 2.2 Login Page" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\2. Skenario 2.2 Login Page.png]]
+
+2024-02-01 13:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Login/button_Login"), STOP_ON_FAILURE): Object: 'Object Repository/CMS/Login/button_Login' is clicked on
+
+2024-02-01 13:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2. Master Event - Add" time="18.264" classname="Test Cases/2. Master Event - Add" status="PASSED">
+         <system-out><![CDATA[2024-02-01 13:13:22 - [TEST_CASE][PASSED] - Test Cases/2. Master Event - Add: Test Cases/2. Master Event - Add
+
+2024-02-01 13:13:23 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:13:23 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 3.1 Dashboard" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.1 Dashboard.png]]
+
+2024-02-01 13:13:23 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/sidebar-dashboard")): Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:13:23 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/span_Master Data")): Object: 'Object Repository/CMS/Page_Dashboard/span_Master Data' is clicked on
+
+2024-02-01 13:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/span_Master Data' is clicked on
+
+2024-02-01 13:13:24 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 3.2 Dashboard - Sidebar" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.2 Dashboard - Sidebar.png]]
+
+2024-02-01 13:13:24 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/Master Event")): Object: 'Object Repository/CMS/Page_Dashboard/Master Event' is clicked on
+
+2024-02-01 13:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/Master Event' is clicked on
+
+2024-02-01 13:13:26 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 3.3 Master Event(Add)" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.3 Master Event(Add).png]]
+
+2024-02-01 13:13:26 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Master Event/button_Tambah Event")): Object: 'Object Repository/CMS/Page_Master Event/button_Tambah Event' is clicked on
+
+2024-02-01 13:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/button_Tambah Event' is clicked on
+
+2024-02-01 13:13:27 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 3.4 Master Event(Add) - Popup" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.4 Master Event(Add) - Popup.png]]
+
+2024-02-01 13:13:28 - [TEST_STEP][PASSED] - kode_event = getText(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/Kode_event")): Text of object 'Object Repository/CMS/Page_Master Event/Page_Master Event/Kode_event' is: ''
+
+2024-02-01 13:13:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/CMS/Page_Master Event/Page_Master Event/Kode_event' is: ''
+
+2024-02-01 13:13:28 - [TEST_STEP][PASSED] - println("nomor VA : " + kode_event): null
+
+2024-02-01 13:13:28 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Master Event/input_Nama Event_name"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Master Event/input_Nama Event_name'
+
+2024-02-01 13:13:29 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Master Event/input_Nama Event_name'
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Master Event/input_Lokasi_location"), lokasi): Text 'Jakarta' is set on object 'Object Repository/CMS/Page_Master Event/input_Lokasi_location'
+
+2024-02-01 13:13:29 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/CMS/Page_Master Event/input_Lokasi_location'
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - year = fromYear: null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - month = fromMonth: null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - day = fromDay: null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - yearInt = 2040: null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - localDate = systemDefault()).toLocalDate(): null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - currentYear = getYear().toString(): null
+
+2024-02-01 13:13:29 - [TEST_STEP][PASSED] - yearDiff = yearInt - localDate.getYear() / 10: null
+
+2024-02-01 13:13:30 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Master Event/input_Dari Tanggal")): Object: 'Object Repository/CMS/Page_Master Event/input_Dari Tanggal' is clicked on
+
+2024-02-01 13:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/input_Dari Tanggal' is clicked on
+
+2024-02-01 13:13:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch")): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch' is clicked on
+
+2024-02-01 13:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch' is clicked on
+
+2024-02-01 13:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch", ["currentYear":currentYear])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch' is clicked on
+
+2024-02-01 13:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch' is clicked on
+
+2024-02-01 13:13:31 - [TEST_STEP][PASSED] - while (true): null
+
+2024-02-01 13:13:31 - [TEST_STEP][PASSED] - yearRange = getText(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/th_2020-2029")): Text of object 'Object Repository/CMS/Page_Master Event/Page_Master Event/th_2020-2029' is: '2020-2029'
+
+2024-02-01 13:13:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/CMS/Page_Master Event/Page_Master Event/th_2020-2029' is: '2020-2029'
+
+2024-02-01 13:13:32 - [TEST_STEP][PASSED] - yearRangeList = yearRange.split("-"): null
+
+2024-02-01 13:13:32 - [TEST_STEP][PASSED] - out.println(yearRangeList): null
+
+2024-02-01 13:13:32 - [TEST_STEP][PASSED] - if (yearRangeList[1] < year): null
+
+2024-02-01 13:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/month-year", ["index":year])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/month-year", ["index":month])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/day", ["index":day])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/day' is clicked on
+
+2024-02-01 13:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/day' is clicked on
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - break: null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - year = toYear: null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - month = toMonth: null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - day = toDay: null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - yearInt = 2050: null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - localDate = systemDefault()).toLocalDate(): null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - currentYear = getYear().toString(): null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - yearDiff = yearInt - localDate.getYear() / 10: null
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch")): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch' is clicked on
+
+2024-02-01 13:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch' is clicked on
+
+2024-02-01 13:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch", ["currentYear":fromYear])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch' is clicked on
+
+2024-02-01 13:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch' is clicked on
+
+2024-02-01 13:13:35 - [TEST_STEP][PASSED] - while (true): null
+
+2024-02-01 13:13:35 - [TEST_STEP][PASSED] - yearRange = getText(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/th_2020-2029")): Text of object 'Object Repository/CMS/Page_Master Event/Page_Master Event/th_2020-2029' is: '2020-2029'
+
+2024-02-01 13:13:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/CMS/Page_Master Event/Page_Master Event/th_2020-2029' is: '2020-2029'
+
+2024-02-01 13:13:35 - [TEST_STEP][PASSED] - yearRangeList = yearRange.split("-"): null
+
+2024-02-01 13:13:35 - [TEST_STEP][PASSED] - out.println(yearRangeList): null
+
+2024-02-01 13:13:35 - [TEST_STEP][PASSED] - if (yearRangeList[1] < year): null
+
+2024-02-01 13:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/month-year", ["index":year])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/month-year", ["index":month])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/month-year' is clicked on
+
+2024-02-01 13:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/day", ["index":day])): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/day' is clicked on
+
+2024-02-01 13:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/day' is clicked on
+
+2024-02-01 13:13:37 - [TEST_STEP][PASSED] - break: null
+
+2024-02-01 13:13:37 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 3.6 Master Event(Add) - Popup Filled" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.6 Master Event(Add) - Popup Filled.png]]
+
+2024-02-01 13:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/button_SUBMIT")): Object: 'Object Repository/CMS/Page_Master Event/button_SUBMIT' is clicked on
+
+2024-02-01 13:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/button_SUBMIT' is clicked on
+
+2024-02-01 13:13:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok"), 0): Object 'Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok' is present
+
+2024-02-01 13:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-02-01 13:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok' is present
+
+2024-02-01 13:13:40 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 3.7 Master Event(Add) - Popup Success" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 3.7 Master Event(Add) - Popup Success.png]]
+
+2024-02-01 13:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok")): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok' is clicked on
+
+2024-02-01 13:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Search and Sorting - Master Event" time="19.346" classname="Test Cases/3. Search and Sorting - Master Event" status="PASSED">
+         <system-out><![CDATA[2024-02-01 13:13:40 - [TEST_CASE][PASSED] - Test Cases/3. Search and Sorting - Master Event: Test Cases/3. Search and Sorting - Master Event
+
+2024-02-01 13:13:41 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:13:41 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/sidebar-dashboard")): Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:13:41 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.1 Dashboard - Sidebar" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.1 Dashboard - Sidebar.png]]
+
+2024-02-01 13:13:42 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/Master Event")): Object: 'Object Repository/CMS/Page_Dashboard/Master Event' is clicked on
+
+2024-02-01 13:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/Master Event' is clicked on
+
+2024-02-01 13:13:43 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.2 Master Event - Search" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.2 Master Event - Search.png]]
+
+2024-02-01 13:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), kode_event): Text '' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:44 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.3 Master Event - Search - Valid kode event" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.3 Master Event - Search - Valid kode event.png]]
+
+2024-02-01 13:13:45 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), non_valid_kodeEvent): Text 'AAAAA' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:45 - [MESSAGE][PASSED] - Text 'AAAAA' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:45 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.4 Master Event - Search - Non Valid kode event" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.4 Master Event - Search - Non Valid kode event.png]]
+
+2024-02-01 13:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:46 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:46 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.5 Master Event - Search - Valid nama event" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.5 Master Event - Search - Valid nama event.png]]
+
+2024-02-01 13:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), "testing1"): Text 'testing1' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:47 - [MESSAGE][PASSED] - Text 'testing1' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:47 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.6 Master Event - Search - Non Valid nama event" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.6 Master Event - Search - Non Valid nama event.png]]
+
+2024-02-01 13:13:47 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), lokasi): Text 'Jakarta' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:48 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:48 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.7 Master Event - Search - Valid lokasi" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.7 Master Event - Search - Valid lokasi.png]]
+
+2024-02-01 13:13:48 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), "Jonggol"): Text 'Jonggol' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:49 - [MESSAGE][PASSED] - Text 'Jonggol' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:49 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.8 Master Event - Search - Non Valid lokasi" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.8 Master Event - Search - Non Valid lokasi.png]]
+
+2024-02-01 13:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), dari_tanggal): Text '2024-01-10' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:50 - [MESSAGE][PASSED] - Text '2024-01-10' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:50 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.9 Master Event - Search - Dari Tanggal" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.9 Master Event - Search - Dari Tanggal.png]]
+
+2024-02-01 13:13:50 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), sampai_tanggal): Text '2024-01-17' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:51 - [MESSAGE][PASSED] - Text '2024-01-17' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:51 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.10 Master Event - Search - Sampai Tanggal" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.10 Master Event - Search - Sampai Tanggal.png]]
+
+2024-02-01 13:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), "Active"): Text 'Active' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:52 - [MESSAGE][PASSED] - Text 'Active' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:52 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.10 Master Event - Search - Status (active)" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.10 Master Event - Search - Status (active).png]]
+
+2024-02-01 13:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), "Inactive"): Text 'Inactive' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:53 - [MESSAGE][PASSED] - Text 'Inactive' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:53 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.10 Master Event - Search - Status (inactive)" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.10 Master Event - Search - Status (inactive).png]]
+
+2024-02-01 13:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), ""): Text '' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:13:54 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.11 Master Event - Before Sorting" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.11 Master Event - Before Sorting.png]]
+
+2024-02-01 13:13:54 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Master Sorting/sorting_Nama Event")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:13:55 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.12 Master Event - Sorting - Kode Event" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.12 Master Event - Sorting - Kode Event.png]]
+
+2024-02-01 13:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Nama Event")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:13:56 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.13 Master Event - Sorting - Nama Event" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.13 Master Event - Sorting - Nama Event.png]]
+
+2024-02-01 13:13:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Lokasi")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Lokasi' is clicked on
+
+2024-02-01 13:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Lokasi' is clicked on
+
+2024-02-01 13:13:57 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.14 Master Event - Sorting - Lokasi" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.14 Master Event - Sorting - Lokasi.png]]
+
+2024-02-01 13:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Dari Tanggal")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Dari Tanggal' is clicked on
+
+2024-02-01 13:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Dari Tanggal' is clicked on
+
+2024-02-01 13:13:58 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.15 Master Event - Sorting - Dari Tanggal" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.15 Master Event - Sorting - Dari Tanggal.png]]
+
+2024-02-01 13:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Sampai Tanggal")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Sampai Tanggal' is clicked on
+
+2024-02-01 13:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Sampai Tanggal' is clicked on
+
+2024-02-01 13:13:58 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.15 Master Event - Sorting - Sampai Tanggal" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:13:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.15 Master Event - Sorting - Sampai Tanggal.png]]
+
+2024-02-01 13:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Status")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Status' is clicked on
+
+2024-02-01 13:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Status' is clicked on
+
+2024-02-01 13:13:59 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 5.15 Master Event - Sorting - Status" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 5.15 Master Event - Sorting - Status.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cek Event" time="4.985" classname="Test Cases/Cek Event" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cek Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-02-01 13:14:00 - [TEST_CASE][FAILED] - Test Cases/Cek Event: Test Cases/Cek Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-02-01 13:14:00 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:14:00 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/sidebar-dashboard")): Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:14:01 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/click-Event - Dealer")): Object: 'Object Repository/CMS/Page_Dashboard/click-Event - Dealer' is clicked on
+
+2024-02-01 13:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/click-Event - Dealer' is clicked on
+
+2024-02-01 13:14:02 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 4.1 Event - Dealer" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 4.1 Event - Dealer.png]]
+
+2024-02-01 13:14:02 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:03 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:03 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 4.2 Event - Dealer - Search" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 4.2 Event - Dealer - Search.png]]
+
+2024-02-01 13:14:03 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/sidebar-dashboard")): Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:14:04 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/span_Master Data")): Object: 'Object Repository/CMS/Page_Dashboard/span_Master Data' is clicked on
+
+2024-02-01 13:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/span_Master Data' is clicked on
+
+2024-02-01 13:14:04 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU")): Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705645330218.run(Script1705645330218.groovy:41)
+	... 13 more
+)
+
+2024-02-01 13:14:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705645330218.run(Script1705645330218.groovy:41)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\1706768045114.png]]]]></system-out>
+         <system-err><![CDATA[2024-02-01 13:14:00 - [TEST_CASE][FAILED] - Test Cases/Cek Event: Test Cases/Cek Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/event-kanwil/1. event-kanwil" time="1.683" classname="Test Cases/event-kanwil/1. event-kanwil" status="FAILED">
+         <failure type="FAILED" message="Test Cases/event-kanwil/1. event-kanwil FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1. event-kanwil.run(1. event-kanwil:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-02-01 13:14:05 - [TEST_CASE][FAILED] - Test Cases/event-kanwil/1. event-kanwil: Test Cases/event-kanwil/1. event-kanwil FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1. event-kanwil.run(1. event-kanwil:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-02-01 13:14:05 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:14:05 - [TEST_STEP][PASSED] - click(findTestObject("CMS/Page_Dashboard/sidebar-dashboard")): Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:14:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Dashboard/sidebar-dashboard' is clicked on
+
+2024-02-01 13:14:06 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + "Skenario 12.1 Dashboard - Sidebar" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\Skenario 12.1 Dashboard - Sidebar.png]]
+
+2024-02-01 13:14:06 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/CMS/event_kanwil/sub_menu_dinamis", ["index":"event_mapping_kanwil_kcu"])): Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1. event-kanwil.run(1. event-kanwil:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705654580898.run(Script1705654580898.groovy:26)
+	... 13 more
+)
+
+2024-02-01 13:14:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1. event-kanwil.run(1. event-kanwil:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705654580898.run(Script1705654580898.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\1706768046820.png]]]]></system-out>
+         <system-err><![CDATA[2024-02-01 13:14:05 - [TEST_CASE][FAILED] - Test Cases/event-kanwil/1. event-kanwil: Test Cases/event-kanwil/1. event-kanwil FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/sub_menu_dinamis'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 1. event-kanwil.run(1. event-kanwil:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/event-kanwil/2. verifikasi data" time="3.331" classname="Test Cases/event-kanwil/2. verifikasi data" status="PASSED">
+         <system-out><![CDATA[2024-02-01 13:14:06 - [TEST_CASE][PASSED] - Test Cases/event-kanwil/2. verifikasi data: Test Cases/event-kanwil/2. verifikasi data
+
+2024-02-01 13:14:07 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:14:07 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 12.2 field kosong" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 12.2 field kosong.png]]
+
+2024-02-01 13:14:07 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:08 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-02-01 13:14:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-02-01 13:14:09 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 12.3 nama terisi" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 12.3 nama terisi.png]]
+
+2024-02-01 13:14:09 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:10 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/event-kanwil/3. edit data" time="38.9" classname="Test Cases/event-kanwil/3. edit data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/event-kanwil/3. edit data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-02-01 13:14:10 - [TEST_CASE][FAILED] - Test Cases/event-kanwil/3. edit data: Test Cases/event-kanwil/3. edit data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-02-01 13:14:10 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:14:10 - [TEST_STEP][PASSED] - kcuIndex = [1, 12, 25, 38, 51, 62, 72, 83, 94, 107, 117, 125, 136]: null
+
+2024-02-01 13:14:10 - [TEST_STEP][PASSED] - subSkenario = ["a", "b", "c"]: null
+
+2024-02-01 13:14:10 - [TEST_STEP][FAILED] - for ([i = 0, i < 3, (i++)]): Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705655846067.run(Script1705655846067.groovy:53)
+	... 13 more
+)
+
+2024-02-01 13:14:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-02-01 13:14:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-02-01 13:14:11 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:12 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:14:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-02-01 13:14:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-02-01 13:14:13 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 13.1." + subSkenario[i] + " nama terisi" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 13.1.a nama terisi.png]]
+
+2024-02-01 13:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Event/Page_Master Event/button-edit (1)")): Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/button-edit (1)' is clicked on
+
+2024-02-01 13:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Event/Page_Master Event/button-edit (1)' is clicked on
+
+2024-02-01 13:14:14 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 13.1." + subSkenario[i] + " default edit page" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 13.1.a default edit page.png]]
+
+2024-02-01 13:14:17 - [TEST_STEP][FAILED] - switch (i): Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705655846067.run(Script1705655846067.groovy:53)
+	... 13 more
+)
+
+2024-02-01 13:14:17 - [TEST_STEP][FAILED] - case 0:: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705655846067.run(Script1705655846067.groovy:53)
+	... 13 more
+)
+
+2024-02-01 13:14:17 - [TEST_STEP][PASSED] - noKanwil = 1: null
+
+2024-02-01 13:14:17 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body", ["kanwil":noKanwil])): Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705655846067.run(Script1705655846067.groovy:53)
+	... 13 more
+)
+
+2024-02-01 13:14:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-02-01 13:14:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1705655846067.run(Script1705655846067.groovy:53)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Daniel\\Documents\\BCAF\\Github\\KKBSK Prior 17\\kkbsk-priority-17\\Reports\\20240201_131309\\KKBSK P17\\20240201_131309\\1706768089102.png]]]]></system-out>
+         <system-err><![CDATA[2024-02-01 13:14:10 - [TEST_CASE][FAILED] - Test Cases/event-kanwil/3. edit data: Test Cases/event-kanwil/3. edit data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at 3. edit data.run(3. edit data:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CMS/event_kanwil/Page_Edit Event Kanwil KCU/span_Kanwil_body' located by '//table[@id='table-kanwil']/tbody/tr[1]/td/div/label/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/event-kanwil/4. verifikasi data" time="21.384" classname="Test Cases/event-kanwil/4. verifikasi data" status="PASSED">
+         <system-out><![CDATA[2024-02-01 13:14:49 - [TEST_CASE][PASSED] - Test Cases/event-kanwil/4. verifikasi data: Test Cases/event-kanwil/4. verifikasi data
+
+2024-02-01 13:14:49 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:14:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-02-01 13:14:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-02-01 13:14:50 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 14.2 field kosong" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:14:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14.2 field kosong.png]]
+
+2024-02-01 13:14:51 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), nama_event): Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:15:08 - [MESSAGE][PASSED] - Text 'Testing tudei' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:15:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2024-02-01 13:15:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2024-02-01 13:15:09 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 14.3 nama terisi" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:15:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14.3 nama terisi.png]]
+
+2024-02-01 13:15:10 - [TEST_STEP][PASSED] - setText(findTestObject("CMS/Page_Dashboard/search bar"), ""): Text '' is set on object 'Object Repository/CMS/Page_Dashboard/search bar'
+
+2024-02-01 13:15:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CMS/Page_Dashboard/search bar']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/event-kanwil/4. check sort" time="2.222" classname="Test Cases/event-kanwil/4. check sort" status="PASSED">
+         <system-out><![CDATA[2024-02-01 13:15:10 - [TEST_CASE][PASSED] - Test Cases/event-kanwil/4. check sort: Test Cases/event-kanwil/4. check sort
+
+2024-02-01 13:15:11 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2024-02-01 13:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Nama Event")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:15:11 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 14 nama asc" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:15:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14 nama asc.png]]
+
+2024-02-01 13:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CMS/Page_Master Sorting/sorting_Nama Event")): Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CMS/Page_Master Sorting/sorting_Nama Event' is clicked on
+
+2024-02-01 13:15:12 - [TEST_STEP][PASSED] - takeScreenshot(baseDir + sspathP17 + "\" + matriks + "\" + "Skenario 14 nama desc" + ".png", STOP_ON_FAILURE): Taking screenshot successfully
+
+2024-02-01 13:15:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\Daniel\Documents\BCAF\Github\KKBSK Prior 17\kkbsk-priority-17\Screenshots\1\Skenario 14 nama desc.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-01 13:13:13 - [TEST_SUITE][FAILED] - KKBSK P17: Test Cases/Cek Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-02-01 13:13:13 - [TEST_SUITE][FAILED] - KKBSK P17: Test Cases/Cek Event FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Cek Event.run(Cek Event:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1706767989464.run(TempTestSuite1706767989464.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-NARI9JQA', ip: '10.10.6.21', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Daniel\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56cf4a51a77cbd3da3a1e489303c65a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,141 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KKBSK P17,Chrome 121.0.0.0,,,2024-02-01 13:13:13,2024-02-01 13:15:12,1m - 59.734s,FAILED
+,,,,,,,
+Test Cases/1. Login,Chrome 121.0.0.0,,,2024-02-01 13:13:13,2024-02-01 13:13:22,8.687s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,Get directory project,,2024-02-01 13:13:14,2024-02-01 13:13:14,0.003s,PASSED
+"openBrowser(""http://192.168.29.74/login"")",Chrome 121.0.0.0,,,2024-02-01 13:13:14,2024-02-01 13:13:17,3.332s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""1. Skenario 2.1 Login Page"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:17,2024-02-01 13:13:18,0.617s,PASSED
+"setText(findTestObject(""Object Repository/CMS/Login/input_NIP_username""), username)",Chrome 121.0.0.0,,,2024-02-01 13:13:18,2024-02-01 13:13:18,0.788s,PASSED
+"setText(findTestObject(""Object Repository/CMS/Login/input_Password_password""), password)",Chrome 121.0.0.0,,,2024-02-01 13:13:18,2024-02-01 13:13:19,0.695s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""2. Skenario 2.2 Login Page"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:19,2024-02-01 13:13:19,0.345s,PASSED
+"click(findTestObject(""Object Repository/CMS/Login/button_Login""), STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:19,2024-02-01 13:13:22,2.380s,PASSED
+,,,,,,,
+Test Cases/2. Master Event - Add,Chrome 121.0.0.0,,,2024-02-01 13:13:22,2024-02-01 13:13:40,18.264s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,Get directory project,,2024-02-01 13:13:23,2024-02-01 13:13:23,0.000s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 3.1 Dashboard"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:23,2024-02-01 13:13:23,0.507s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/sidebar-dashboard""))",Chrome 121.0.0.0,,,2024-02-01 13:13:23,2024-02-01 13:13:23,0.368s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/span_Master Data""))",Chrome 121.0.0.0,,,2024-02-01 13:13:23,2024-02-01 13:13:24,0.397s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 3.2 Dashboard - Sidebar"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:24,2024-02-01 13:13:24,0.619s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/Master Event""))",Chrome 121.0.0.0,,,2024-02-01 13:13:24,2024-02-01 13:13:26,1.462s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 3.3 Master Event(Add)"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:26,2024-02-01 13:13:26,0.430s,PASSED
+"click(findTestObject(""CMS/Page_Master Event/button_Tambah Event""))",Chrome 121.0.0.0,,,2024-02-01 13:13:26,2024-02-01 13:13:27,0.614s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 3.4 Master Event(Add) - Popup"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:27,2024-02-01 13:13:28,0.721s,PASSED
+"kode_event = getText(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/Kode_event""))",Chrome 121.0.0.0,,,2024-02-01 13:13:28,2024-02-01 13:13:28,0.492s,PASSED
+"println(""nomor VA : "" + kode_event)",Chrome 121.0.0.0,,,2024-02-01 13:13:28,2024-02-01 13:13:28,0.003s,PASSED
+"setText(findTestObject(""CMS/Page_Master Event/input_Nama Event_name""), nama_event)",Chrome 121.0.0.0,,,2024-02-01 13:13:28,2024-02-01 13:13:29,0.586s,PASSED
+"setText(findTestObject(""CMS/Page_Master Event/input_Lokasi_location""), lokasi)",Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.647s,PASSED
+year = fromYear,Chrome 121.0.0.0,dari tanggal,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.001s,PASSED
+month = fromMonth,Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.000s,PASSED
+day = fromDay,Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.000s,PASSED
+yearInt = 2040,Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.000s,PASSED
+date = new java.util.Date(),Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.007s,PASSED
+localDate = systemDefault()).toLocalDate(),Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.037s,PASSED
+currentYear = getYear().toString(),Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:29,0.012s,PASSED
+yearDiff = yearInt - localDate.getYear() / 10,Chrome 121.0.0.0,,,2024-02-01 13:13:29,2024-02-01 13:13:30,0.004s,PASSED
+"click(findTestObject(""CMS/Page_Master Event/input_Dari Tanggal""))",Chrome 121.0.0.0,,,2024-02-01 13:13:30,2024-02-01 13:13:30,0.596s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch""))",Chrome 121.0.0.0,,,2024-02-01 13:13:30,2024-02-01 13:13:31,0.590s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch"", [""currentYear"":currentYear]))",Chrome 121.0.0.0,,,2024-02-01 13:13:31,2024-02-01 13:13:31,0.610s,PASSED
+while (true),Chrome 121.0.0.0,,,2024-02-01 13:13:31,2024-02-01 13:13:34,2.218s,PASSED
+year = toYear,Chrome 121.0.0.0,sampai tanggal,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.001s,PASSED
+month = toMonth,Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.000s,PASSED
+day = toDay,Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.001s,PASSED
+yearInt = 2050,Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.000s,PASSED
+localDate = systemDefault()).toLocalDate(),Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.001s,PASSED
+currentYear = getYear().toString(),Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.000s,PASSED
+yearDiff = yearInt - localDate.getYear() / 10,Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.001s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/year-and-month-switch""))",Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:34,0.568s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/year-switch"", [""currentYear"":fromYear]))",Chrome 121.0.0.0,,,2024-02-01 13:13:34,2024-02-01 13:13:35,0.540s,PASSED
+while (true),Chrome 121.0.0.0,,,2024-02-01 13:13:35,2024-02-01 13:13:37,2.294s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 3.6 Master Event(Add) - Popup Filled"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:37,2024-02-01 13:13:37,0.390s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Event/button_SUBMIT""))",Chrome 121.0.0.0,,,2024-02-01 13:13:37,2024-02-01 13:13:38,0.530s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok""), 0)",Chrome 121.0.0.0,,,2024-02-01 13:13:38,2024-02-01 13:13:40,1.686s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 3.7 Master Event(Add) - Popup Success"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:40,2024-02-01 13:13:40,0.408s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Event/Page_Master Event/button_ok""))",Chrome 121.0.0.0,,,2024-02-01 13:13:40,2024-02-01 13:13:40,0.356s,PASSED
+,,,,,,,
+Test Cases/3. Search and Sorting - Master Event,Chrome 121.0.0.0,,,2024-02-01 13:13:40,2024-02-01 13:14:00,19.346s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,Get directory project,,2024-02-01 13:13:41,2024-02-01 13:13:41,0.000s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/sidebar-dashboard""))",Chrome 121.0.0.0,,,2024-02-01 13:13:41,2024-02-01 13:13:41,0.485s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.1 Dashboard - Sidebar"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:41,2024-02-01 13:13:42,0.382s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/Master Event""))",Chrome 121.0.0.0,,,2024-02-01 13:13:42,2024-02-01 13:13:43,1.459s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.2 Master Event - Search"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:43,2024-02-01 13:13:44,0.381s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), kode_event)",Chrome 121.0.0.0,valid - kode event,,2024-02-01 13:13:44,2024-02-01 13:13:44,0.555s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.3 Master Event - Search - Valid kode event"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:44,2024-02-01 13:13:45,0.383s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), non_valid_kodeEvent)",Chrome 121.0.0.0,non valid - kode event,,2024-02-01 13:13:45,2024-02-01 13:13:45,0.555s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.4 Master Event - Search - Non Valid kode event"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:45,2024-02-01 13:13:46,0.390s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), nama_event)",Chrome 121.0.0.0,Valid Nama Event,,2024-02-01 13:13:46,2024-02-01 13:13:46,0.561s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.5 Master Event - Search - Valid nama event"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:46,2024-02-01 13:13:46,0.375s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), ""testing1"")",Chrome 121.0.0.0,non valid - kode event,,2024-02-01 13:13:46,2024-02-01 13:13:47,0.574s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.6 Master Event - Search - Non Valid nama event"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:47,2024-02-01 13:13:47,0.398s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), lokasi)",Chrome 121.0.0.0,Valid Lokasi,,2024-02-01 13:13:47,2024-02-01 13:13:48,0.581s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.7 Master Event - Search - Valid lokasi"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:48,2024-02-01 13:13:48,0.428s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), ""Jonggol"")",Chrome 121.0.0.0,non valid - lokasi,,2024-02-01 13:13:48,2024-02-01 13:13:49,0.570s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.8 Master Event - Search - Non Valid lokasi"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:49,2024-02-01 13:13:49,0.381s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), dari_tanggal)",Chrome 121.0.0.0,Dari Tanggal,,2024-02-01 13:13:49,2024-02-01 13:13:50,0.594s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.9 Master Event - Search - Dari Tanggal"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:50,2024-02-01 13:13:50,0.375s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), sampai_tanggal)",Chrome 121.0.0.0,Sampai Tanggal,,2024-02-01 13:13:50,2024-02-01 13:13:51,0.579s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.10 Master Event - Search - Sampai Tanggal"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:51,2024-02-01 13:13:51,0.419s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), ""Active"")",Chrome 121.0.0.0,Status,,2024-02-01 13:13:51,2024-02-01 13:13:52,0.595s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.10 Master Event - Search - Status (active)"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:52,2024-02-01 13:13:52,0.419s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), ""Inactive"")",Chrome 121.0.0.0,,,2024-02-01 13:13:52,2024-02-01 13:13:53,0.564s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.10 Master Event - Search - Status (inactive)"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:53,2024-02-01 13:13:53,0.370s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), """")",Chrome 121.0.0.0,Sorting,,2024-02-01 13:13:53,2024-02-01 13:13:54,0.580s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.11 Master Event - Before Sorting"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:54,2024-02-01 13:13:54,0.364s,PASSED
+"click(findTestObject(""CMS/Page_Master Sorting/sorting_Nama Event""))",Chrome 121.0.0.0,Sorting - Kode Event,,2024-02-01 13:13:54,2024-02-01 13:13:55,0.512s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.12 Master Event - Sorting - Kode Event"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:55,2024-02-01 13:13:55,0.375s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Nama Event""))",Chrome 121.0.0.0,Sorting - Nama Event,,2024-02-01 13:13:55,2024-02-01 13:13:56,0.629s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.13 Master Event - Sorting - Nama Event"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:56,2024-02-01 13:13:56,0.370s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Lokasi""))",Chrome 121.0.0.0,Sorting - Lokasi,,2024-02-01 13:13:56,2024-02-01 13:13:57,0.545s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.14 Master Event - Sorting - Lokasi"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:57,2024-02-01 13:13:57,0.384s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Dari Tanggal""))",Chrome 121.0.0.0,Sorting - Dari Tanggal,,2024-02-01 13:13:57,2024-02-01 13:13:58,0.536s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.15 Master Event - Sorting - Dari Tanggal"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:58,2024-02-01 13:13:58,0.369s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Sampai Tanggal""))",Chrome 121.0.0.0,Sorting - Sampai Tanggal,,2024-02-01 13:13:58,2024-02-01 13:13:58,0.528s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.15 Master Event - Sorting - Sampai Tanggal"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:58,2024-02-01 13:13:59,0.369s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Status""))",Chrome 121.0.0.0,Sorting - Status,,2024-02-01 13:13:59,2024-02-01 13:13:59,0.513s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 5.15 Master Event - Sorting - Status"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:13:59,2024-02-01 13:14:00,0.366s,PASSED
+,,,,,,,
+Test Cases/Cek Event,Chrome 121.0.0.0,,,2024-02-01 13:14:00,2024-02-01 13:14:05,4.985s,FAILED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,Get directory project,,2024-02-01 13:14:00,2024-02-01 13:14:00,0.001s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/sidebar-dashboard""))",Chrome 121.0.0.0,,,2024-02-01 13:14:00,2024-02-01 13:14:01,0.373s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/click-Event - Dealer""))",Chrome 121.0.0.0,,,2024-02-01 13:14:01,2024-02-01 13:14:02,1.396s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 4.1 Event - Dealer"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:14:02,2024-02-01 13:14:02,0.403s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), nama_event)",Chrome 121.0.0.0,,,2024-02-01 13:14:02,2024-02-01 13:14:03,0.633s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 4.2 Event - Dealer - Search"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:14:03,2024-02-01 13:14:03,0.361s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/sidebar-dashboard""))",Chrome 121.0.0.0,,,2024-02-01 13:14:03,2024-02-01 13:14:04,0.392s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/span_Master Data""))",Chrome 121.0.0.0,,,2024-02-01 13:14:04,2024-02-01 13:14:04,0.400s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Dashboard/click-Event - Kanwil - KCU""))",Chrome 121.0.0.0,,,2024-02-01 13:14:04,2024-02-01 13:14:05,0.640s,FAILED
+,,,,,,,
+Test Cases/event-kanwil/1. event-kanwil,Chrome 121.0.0.0,,,2024-02-01 13:14:05,2024-02-01 13:14:06,1.683s,FAILED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,2024-02-01 13:14:05,2024-02-01 13:14:05,0.000s,PASSED
+"click(findTestObject(""CMS/Page_Dashboard/sidebar-dashboard""))",Chrome 121.0.0.0,,,2024-02-01 13:14:05,2024-02-01 13:14:06,0.374s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + ""Skenario 12.1 Dashboard - Sidebar"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:14:06,2024-02-01 13:14:06,0.385s,PASSED
+"click(findTestObject(""Object Repository/CMS/event_kanwil/sub_menu_dinamis"", [""index"":""event_mapping_kanwil_kcu""]))",Chrome 121.0.0.0,,,2024-02-01 13:14:06,2024-02-01 13:14:06,0.495s,FAILED
+,,,,,,,
+Test Cases/event-kanwil/2. verifikasi data,Chrome 121.0.0.0,,,2024-02-01 13:14:06,2024-02-01 13:14:10,3.331s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,2024-02-01 13:14:07,2024-02-01 13:14:07,0.000s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 12.2 field kosong"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:14:07,2024-02-01 13:14:07,0.359s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), nama_event)",Chrome 121.0.0.0,,,2024-02-01 13:14:07,2024-02-01 13:14:08,0.593s,PASSED
+delay(1),Chrome 121.0.0.0,,,2024-02-01 13:14:08,2024-02-01 13:14:09,1.044s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 12.3 nama terisi"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:14:09,2024-02-01 13:14:09,0.358s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), nama_event)",Chrome 121.0.0.0,,,2024-02-01 13:14:09,2024-02-01 13:14:10,0.588s,PASSED
+,,,,,,,
+Test Cases/event-kanwil/3. edit data,Chrome 121.0.0.0,,,2024-02-01 13:14:10,2024-02-01 13:14:49,38.900s,FAILED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,2024-02-01 13:14:10,2024-02-01 13:14:10,0.000s,PASSED
+"kcuIndex = [1, 12, 25, 38, 51, 62, 72, 83, 94, 107, 117, 125, 136]",Chrome 121.0.0.0,,,2024-02-01 13:14:10,2024-02-01 13:14:10,0.001s,PASSED
+"subSkenario = [""a"", ""b"", ""c""]",Chrome 121.0.0.0,,,2024-02-01 13:14:10,2024-02-01 13:14:10,0.000s,PASSED
+"for ([i = 0, i < 3, (i++)])",Chrome 121.0.0.0,,,2024-02-01 13:14:10,2024-02-01 13:14:49,38.494s,FAILED
+,,,,,,,
+Test Cases/event-kanwil/4. verifikasi data,Chrome 121.0.0.0,,,2024-02-01 13:14:49,2024-02-01 13:15:10,21.384s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,2024-02-01 13:14:49,2024-02-01 13:14:49,0.000s,PASSED
+delay(1),Chrome 121.0.0.0,,,2024-02-01 13:14:49,2024-02-01 13:14:50,1.015s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 14.2 field kosong"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:14:50,2024-02-01 13:14:51,0.371s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), nama_event)",Chrome 121.0.0.0,,,2024-02-01 13:14:51,2024-02-01 13:15:08,17.651s,PASSED
+delay(1),Chrome 121.0.0.0,,,2024-02-01 13:15:08,2024-02-01 13:15:09,1.006s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 14.3 nama terisi"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:15:09,2024-02-01 13:15:10,0.358s,PASSED
+"setText(findTestObject(""CMS/Page_Dashboard/search bar""), """")",Chrome 121.0.0.0,,,2024-02-01 13:15:10,2024-02-01 13:15:10,0.547s,PASSED
+,,,,,,,
+Test Cases/event-kanwil/4. check sort,Chrome 121.0.0.0,,,2024-02-01 13:15:10,2024-02-01 13:15:12,2.222s,PASSED
+"baseDir = System.getProperty(""user.dir"")",Chrome 121.0.0.0,,,2024-02-01 13:15:11,2024-02-01 13:15:11,0.000s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Nama Event""))",Chrome 121.0.0.0,,,2024-02-01 13:15:11,2024-02-01 13:15:11,0.543s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 14 nama asc"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:15:11,2024-02-01 13:15:11,0.365s,PASSED
+"click(findTestObject(""Object Repository/CMS/Page_Master Sorting/sorting_Nama Event""))",Chrome 121.0.0.0,,,2024-02-01 13:15:11,2024-02-01 13:15:12,0.592s,PASSED
+"takeScreenshot(baseDir + sspathP17 + ""\"" + matriks + ""\"" + ""Skenario 14 nama desc"" + "".png"", STOP_ON_FAILURE)",Chrome 121.0.0.0,,,2024-02-01 13:15:12,2024-02-01 13:15:12,0.358s,PASSED
